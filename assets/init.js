@@ -8,5 +8,5 @@ $(function(){
 	buf.push('<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"1","bdPos":"right","bdTop":"100"}};with(document)0[(getElementsByTagName("head")[0]||body).appendChild(createElement("script")).src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion="+~(-new Date()/36e5)];</script>');
 	$('.footer-banner').html(buf.join(''));
 	/*头部导航*/
-	$('body').append('<div class="top-banner clearfix"><div class="fl"><a href="#">不怕别人比你优秀，而怕比你优秀的人还比你更努力！</a></div><div class="fr"><a href="#" >科学是永无止境的，它是一个永恒之谜。——爱因斯坦</a></div></div>');
+	//$('body').append('<div class="top-banner clearfix"><div class="fl"><a href="#">不怕别人比你优秀，而怕比你优秀的人还比你更努力！</a></div><div class="fr"><a href="#" >科学是永无止境的，它是一个永恒之谜。——爱因斯坦</a></div></div>');
 });
