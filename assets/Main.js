@@ -190,7 +190,7 @@ function onWindowDeviceOrientation( event ) {
 
 function createInstructions() {
 
-	var size = 250;
+	var size = 200;
 
 	var element = document.createElement( 'div' );
 	element.width = size;
@@ -217,19 +217,19 @@ function createInstructions() {
 
 	element.appendChild( circle );
 
-	// text = document.createElement( 'div' );
-	// text.onSelectStart = null;
-	// text.innerHTML = '<span style="color:' + theme[0] + ';font-size:26px;">玩法介绍：</span><br /><span style="font-size:15px;"><br />1. 随意拖动圆球；<br />2.点击页面背景；<br />3. 晃动浏览器；<br />4. 双击页面背景；<br />5. 按住鼠标左键。</span>';
-	// text.style.color = theme[1];
-	// text.style.position = 'absolute';
-	// text.style.left = '0px';
-	// text.style.top = '0px';
-	// text.style.fontFamily = 'Georgia';
-	// text.style.textAlign = 'center';
-	// element.appendChild(text);
+	text = document.createElement( 'div' );
+	text.onSelectStart = null;
+	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:26px;">玩法介绍：</span><br /><span style="font-size:15px;"><br />1. 随意拖动圆球；<br />2.点击页面背景；<br />3. 晃动浏览器；<br />4. 双击页面背景；<br />5. 按住鼠标左键。</span>';
+	text.style.color = theme[1];
+	text.style.position = 'absolute';
+	text.style.left = '0px';
+	text.style.top = '0px';
+	text.style.fontFamily = 'Georgia';
+	text.style.textAlign = 'center';
+	element.appendChild(text);
 
-	// text.style.left = ((250 - text.clientWidth) / 2) +'px';
-	// text.style.top = ((250 - text.clientHeight) / 2) +'px';	
+	text.style.left = ((250 - text.clientWidth) / 2) +'px';
+	text.style.top = ((250 - text.clientHeight) / 2) +'px';	
 
 	var b2body = new b2BodyDef();
 
