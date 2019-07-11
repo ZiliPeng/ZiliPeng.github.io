@@ -190,14 +190,14 @@ function onWindowDeviceOrientation( event ) {
 
 function createInstructions() {
 
-	var size = 200;
+	var size = 180;
 
 	var element = document.createElement( 'div' );
 	element.width = size;
 	element.height = size;	
 	element.style.position = 'absolute';
-	element.style.left = -200 + 'px';
-	element.style.top = -200 + 'px';
+	element.style.left = -120 + 'px';
+	element.style.top = -120 + 'px';
 	element.style.cursor = "default";
 
 	canvas.appendChild(element);
@@ -228,8 +228,8 @@ function createInstructions() {
 	text.style.textAlign = 'center';
 	element.appendChild(text);
 
-	text.style.left = ((250 - text.clientWidth) / 2) +'px';
-	text.style.top = ((250 - text.clientHeight) / 2) +'px';	
+	text.style.left = ((180 - text.clientWidth) / 2) +'px';
+	text.style.top = ((180 - text.clientHeight) / 2) +'px';	
 
 	var b2body = new b2BodyDef();
 
