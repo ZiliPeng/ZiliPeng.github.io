@@ -5,7 +5,6 @@ var stage = [ window.screenX, window.screenY, window.innerWidth, window.innerHei
 getBrowserDimensions();
 
 var themes = [ [ "#10222B", "#95AB63", "#BDD684", "#E2F0D6", "#F6FFE0" ],
-		[ "#362C2A", "#732420", "#BF734C", "#FAD9A0", "#736859" ],
 		[ "#0D1114", "#102C2E", "#695F4C", "#EBBC5E", "#FFFBB8" ],
 		[ "#2E2F38", "#FFD63E", "#FFB54B", "#E88638", "#8A221C" ],
 		[ "#121212", "#E6F2DA", "#C9F24B", "#4D7B85", "#23383D" ],
